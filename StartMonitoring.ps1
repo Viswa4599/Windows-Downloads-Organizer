@@ -6,6 +6,7 @@
     $watcher.EnableRaisingEvents = $true  
 
 ### DEFINE ACTIONS AFTER AN EVENT IS DETECTED
+### CHANGE PATH AS REQUIRED
     $action = { $path = "C:\Users\Acer\Desktop\Folder_Organizer"
                 $file = 'download manager.py'
                 $cmd = $path+"\\"+$file 
